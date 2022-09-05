@@ -36,9 +36,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/kgate/kgate-old-v-en-1.jpeg" alt="Kgate" />
-      <WorkImage src="/images/works/kgate/kgate-old-v-en-2.jpeg" alt="Kgate" />
-      <WorkImage src="/images/works/kgate/kgate-old-v-en-3.jpeg" alt="Kgate" />
+      <WorkImage src="/images/works/kgate/ov_kr_kgate1.jpg" alt="Kgate" />
+      <WorkImage src="/images/works/kgate/ov_kr_kgate2.jpg" alt="Kgate" />
+      <WorkImage src="/images/works/kgate/ov_kr_kgate3.jpg" alt="Kgate" />
     </Container>
   </Layout>
 )

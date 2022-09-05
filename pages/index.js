@@ -6,6 +6,7 @@ import {
   Image,
   Link,
   Button,
+  Text,
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -13,8 +14,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { useTranslation } from "react-i18next";
 
 const Page = () => {
+  const { t } = useTranslation();
+
   return (
     <Layout>
       <Container>
@@ -87,15 +91,19 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2010</BioYear>
-            South Korea Army Sgt. Expired Discharge.
+            Discharged from ROK Army as Sergeant.
           </BioSection>
           <BioSection>
-            <BioYear>2015</BioYear>
-            To Help Online Shopping mall Private Business.
+            <BioYear>2014</BioYear>
+            The Clothing Online Shopping Mall Business.
+          </BioSection>
+          <BioSection>
+            <BioYear>2016</BioYear>
+            Worked in CI Telecom's Inventory Management Department.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Worked in CI Telecom's Inventory Management Department.
+            Worked in MIRI. 
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>

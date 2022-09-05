@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import kgate_old_thum from '../public/images/works/kgate/kgate-old-v-en-1.jpeg'
+import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
 import test_thum1 from '../public/images/works/test_thum1.png'
 import petbill1 from '../public/images/projects/old/petbill1.png'
 
@@ -16,7 +16,7 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 				<Section>
-          <ProjectGridItem id="kgate" title="KGate2.0" thumbnail={kgate_old_thum}>
+          <ProjectGridItem id="kgate" title="KGate2.0" thumbnail={ov_kr_kgate1}>
             AI-based facial recognition access control system.
           </ProjectGridItem>
         </Section>
