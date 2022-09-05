@@ -4,7 +4,6 @@ import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
-import test_thum1 from '../public/images/works/test_thum1.png'
 import petbill1 from '../public/images/projects/old/petbill1.png'
 
 const Projects = () => (
@@ -16,11 +15,19 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 				<Section>
-          <ProjectGridItem id="kgate" title="KGate2.0" thumbnail={ov_kr_kgate1}>
-            AI-based facial recognition access control system.
+          <ProjectGridItem id="oldpetbill" title="Renewal_petBill" thumbnail={petbill1}>
+            petBill 리뉴얼 작업 중... 
           </ProjectGridItem>
         </Section>
-        
+        <Section>
+          <ProjectGridItem
+            id="kgate"
+            title="walknote"
+            thumbnail={ov_kr_kgate1}
+          >
+            img size test 
+          </ProjectGridItem>
+        </Section>        
       </SimpleGrid>
 
       <Section delay={0.1}>

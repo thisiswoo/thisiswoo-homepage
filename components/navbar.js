@@ -16,18 +16,19 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-// import ChangeLanguageButton from './change-language-button'
+import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, target, children }) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (
-    <NextLink href={href}>
+    <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
+        {...props}
       >
         {children}
       </Link>
@@ -68,11 +69,17 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/daily" path={path}>
-            Daily
-          </LinkItem>
-          <LinkItem href="/books" path={path}>
-            Books
+          <LinkItem
+            target="_blank"
+            href="https://github.com/thisiswoo"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Github
           </LinkItem>
 
         </Stack>
@@ -99,12 +106,6 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
-                <NextLink href="/daily" passHref>
-                  <MenuItem as={Link}>Daily</MenuItem>
-                </NextLink>
-                <NextLink href="/books" passHref>
-                  <MenuItem as={Link}>Books</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}

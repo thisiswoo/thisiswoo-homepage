@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
 import trans1 from '../public/images/works/trans/trans1.png'
+import petbill1 from '../public/images/projects/old/petbill1.png'
 
 const Works = () => (
   <Layout title="Works">
