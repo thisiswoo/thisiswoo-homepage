@@ -28,7 +28,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          삼겹살을 사랑하는 개발자
+          잠꾸러기 개발자
         </Box>
 
         <Box display={{ md: 'flex' }}>
