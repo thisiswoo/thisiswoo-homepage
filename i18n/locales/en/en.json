@@ -3,14 +3,15 @@
   "brief.intro": "a Sleepyheaded Developer",
   "name.intro": "Office worker...(Web Developer)",
 
-  "work.explanation1": "I am a first-year",
-  "work.explanation2": "Developer. I am working on",
-  "work.explantion3": "as a hobby, I am feeling a new world while developing a mobile app.",
+  "who.am.i.exp1": "I am a first-year",
+  "who.am.i.exp2": "Developer. I am working on",
+  "who.am.i.exp3": "as a hobby, I am feeling a new world while developing a mobile app.",
 
-  "bio.explanation1": "Born in Gwang-Myeong, South Korea",
-  "bio.explanation2": "Discharged from ROK Army as Sergeant.",
-  "bio.explanation3": "The Clothing Online Shopping Mall Business.",
-  "bio.explanation4": "Worked in the CI Telecom's Inventory Management Department.",
-  "bio.explanation5": "Worked in MIRI in Charge of Marketing and Exhibition work.",
-  "bio.explanation6": "Worked in HANA Electric's Interior Electrical Construction Team."
+  "bio.exp1": "Born in Gwang-Myeong, South Korea",
+  "bio.exp2": "Discharged from ROK Army as Sergeant.",
+  "bio.exp3": "The Clothing Online Shopping Mall Business.",
+  "bio.exp4": "Worked in the CI Telecom's Inventory Management Department.",
+  "bio.exp5": "Worked in MIRI in Charge of Marketing and Exhibition work.",
+  "bio.exp6": "Worked in HANA Electric's Interior Electrical Construction Team.",
+  "bio.exp7": "Completed the java and python web development course using big data at the Globalit Human Resources Development Institute."
 }

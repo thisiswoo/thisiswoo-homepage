@@ -3,14 +3,15 @@
   "brief.intro": "잠꾸러기 개발자",
   "name.intro": "회사원...(Web Developer)",
 
-  "work.explanation1": "저는 1년차",
-  "work.explanation2": "개발자 입니다. 취미로",
-  "work.explanation3": "작업을 하고 있고, Mobile App을 개발을 병행하며 신세계를 느끼고 있습니다.",
+  "who.am.i.exp1": "저는 1년차",
+  "who.am.i.exp2": "개발자 입니다. 취미로",
+  "who.am.i.exp3": "작업을 하고 있고, Mobile App 개발을 병행하며 신세계를 느끼고 있습니다.",
 
-  "bio.explanation1": "대한민국 광명시 출생",
-  "bio.explanation2": "대한민국 육군 병장 만기제대",
-  "bio.explanation3": "의류 온라인 쇼핑몰 사업",
-  "bio.explanation4": "CI 텔레콤에서 재고 관리 부서에서 근무",
-  "bio.explanation5": "미리에서 마케팅 및 전시 업무를 담당.",
-  "bio.explanation6": "하나전기 인테리어 전기시공팀에서 근무."
+  "bio.exp1": "대한민국 광명시 출생",
+  "bio.exp2": "대한민국 육군 병장 만기제대",
+  "bio.exp3": "의류 온라인 쇼핑몰 사업",
+  "bio.exp4": "CI 텔레콤에서 재고 관리 부서에서 근무",
+  "bio.exp5": "미리에서 마케팅 및 전시 업무 담당.",
+  "bio.exp6": "하나전기 인테리어 전기시공팀에서 근무.",
+  "bio.exp7": "글로벌IT 인재개발원에서 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료."
 }

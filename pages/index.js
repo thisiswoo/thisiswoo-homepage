@@ -58,19 +58,22 @@ const Page = () => {
 
   			<Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Who am I 
           </Heading>
           <Paragraph>
-            Java를 기반으로 개발을 하고 있는 1년차 주니어{' '}
+            저는 1년차{' '}
             <NextLink href="/works/" passHref scroll={false}>
-              <Link>Back-End </Link>
+              <Link>Back-End</Link>
             </NextLink>
-            개발자 입니다.
-            취미로{' '} 
+            &ensp;개발자 입니다. 취미로{' '} 
             <NextLink href="/projects/" passHref scroll={false}>
-              <Link>Front-End </Link>
+              <Link>Front-End</Link>
             </NextLink>
-            작업을 하고 있고, Apple Application 개발을 병행하며 신세계를 느끼고 있습니다.
+            &ensp;작업과&ensp;
+            <NextLink href="/blog/" passHref scroll={false}>
+              <Link>Blog</Link>
+            </NextLink>
+            를 작업을 하고 있습니다.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
@@ -87,31 +90,31 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>1989</BioYear>
-            Born in GwangMyeong, South Korea.
+            대한민국 광명시.
           </BioSection>
           <BioSection>
             <BioYear>2010</BioYear>
-            Discharged from ROK Army as Sergeant.
+            대한민국 육군 병장 만기제대. 
           </BioSection>
           <BioSection>
             <BioYear>2014</BioYear>
-            The Clothing Online Shopping Mall Business.
+            의류 온라인 쇼핑몰 사업.
           </BioSection>
           <BioSection>
             <BioYear>2016</BioYear>
-            Worked in CI Telecom's Inventory Management Department.
+            CI 텔레콤에서 재고 관리 부서에서 근무. 
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Worked in MIRI. 
+            미리에서 마케팅 및 전시 업무 담당.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Worked in the Interior Electrical Department at HANA Electric.
+            하나전기 인테리어 전기시공팀에서 근무.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Completed the java and python web development course using big data at the Globalit Human Resources Development Institute
+            글로벌IT 인재개발원에서 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>

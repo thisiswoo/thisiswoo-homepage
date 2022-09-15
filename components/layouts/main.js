@@ -2,10 +2,8 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
-// import Footer from '../footer'
+import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
-import { I18nextProvider } from 'react-i18next';
-import i18n from '../../i18n/i18n';
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
   ssr: false,
@@ -14,8 +12,6 @@ const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
 
 const Main = ({ children, router }) => {
   return (
-
-    <I18nextProvider i18n={i18n}> 
 
       <Box as="main" pb={8}>
         <Head>
@@ -39,10 +35,9 @@ const Main = ({ children, router }) => {
 
           {children}
 
+          <Footer />
         </Container>
       </Box>
-
-    </I18nextProvider>
 
   )
 }

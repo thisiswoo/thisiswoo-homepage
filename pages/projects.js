@@ -5,6 +5,8 @@ import Layout from '../components/layouts/article'
 
 import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
 import petbill1 from '../public/images/projects/old/petbill1.png'
+import working from '../public/images/working.png'
+import working2 from '../public/images/working2.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -15,7 +17,7 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 				<Section>
-          <ProjectGridItem id="oldpetbill" title="Renewal_petBill" thumbnail={petbill1}>
+          <ProjectGridItem id="#" title="petBill 프로젝트 리뉴얼 중..." thumbnail={working}>
             petBill 리뉴얼 작업 중... 
           </ProjectGridItem>
         </Section>

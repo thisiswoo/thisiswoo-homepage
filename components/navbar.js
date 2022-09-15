@@ -49,12 +49,20 @@ const Navbar = props => {
       zIndex={2}
       {...props}
     >
-			<Container display="flex" p={2} maxW="container.md" wrap="wrap" align="center" justify="space-between">
+			<Container 
+        display="flex" 
+        p={2} 
+        maxW="container.md" 
+        wrap="wrap" 
+        align="center" 
+        justify="space-between"
+      >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
         </Flex>
+
 				<Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
@@ -68,6 +76,17 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem href="/works" path={path}>
             Works
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/thisiswoo"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            Blog
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -107,6 +126,12 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/thisiswoo"
+                >
+                 Blog 
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/thisiswoo"
