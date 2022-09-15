@@ -16,7 +16,6 @@ import { BioSection, BioYear } from '../components/bio'
 import { useTranslation } from "react-i18next";
 
 const Page = () => {
-  const { t } = useTranslation();
 
   return (
     <Layout>
