@@ -13,7 +13,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { useTranslation } from "react-i18next";
 
 const Page = () => {
 

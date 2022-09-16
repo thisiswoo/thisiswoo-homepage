@@ -17,12 +17,14 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 				<Section>
           <WorkGridItem id="kgate" title="KGate2.0" thumbnail={ov_kr_kgate1}>
-            AI-based facial recognition access control system.
+            {/* AI-based facial recognition access control system. */}
+            AI 기반 안면인식 출입 통제 시스템.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="trans" title="Smart Trans" thumbnail={trans1}>
-            Korea Certificate Smart Translation System 
+          <WorkGridItem id="trans" title="Trans" thumbnail={trans1}>
+            {/* Korea Certificate Documents Smart Translation System. */} 
+            각종 인증서 문서 스마트 번역 시스템. 
           </WorkGridItem>
         </Section>
         

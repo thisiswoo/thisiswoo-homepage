@@ -1,9 +1,12 @@
 import { Box } from '@chakra-ui/react'
+
+{/*
 import { 
   TbBrandGithub,
   TbBrandGmail,
   TbBrandInstagram
 } from 'react-icons/tb'
+*/}
 
 const Footer = () => {
   return (

@@ -17,7 +17,7 @@ const Work = () => (
         Trans <Badge>2022</Badge>
       </Title>
       <P>
-        AI-based facial recognition access control system. 
+        기 증명서, 가족관계 증명서, 혼인관계 증명서, 인감 증명서, 주민등록증, 운전면허증, 여권을 4개국어 영어, 중국어, 일본어, 베트남어로 자동 번역 및 다운로드 시스템. 
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java, Spring, MySQL</span>
+          <span>Java, Spring Boot, MySQL</span>
         </ListItem>
       </List>
 

@@ -17,7 +17,8 @@ const Work = () => (
         KGate2.0 <Badge>2022-</Badge>
       </Title>
       <P>
-        AI-based facial recognition access control system. 
+        AI 기반 안면인식 출입통제 시스템.<br />
+        출입자 자동 발열 체크, 얼굴 자동 인식, 비접촉식 99.9% 살균 손세정제, 근태관리 시스템.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -28,11 +29,15 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Windows, macOS, Linux, iOS, Android</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Server</Meta>
+          <span>Windows Server, Linux Server</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java, Spring, MySQL</span>
+          <span>Java, Spring Boot, MySQL</span>
         </ListItem>
       </List>
 
