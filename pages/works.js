@@ -1,11 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
 import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
 import trans1 from '../public/images/works/trans/trans1.png'
-import petbill1 from '../public/images/projects/old/petbill1.png'
 
 const Works = () => (
   <Layout title="Works">

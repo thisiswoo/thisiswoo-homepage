@@ -22,9 +22,9 @@ const Main = ({ children, router }) => {
           // <link rel="apple-touch-icon" href="apple-touch-icon.png" />
           // <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <meta property="og:site_name" content="Lee Geon-woo" />
-          <meta name="og:title" content="Takuya Matsuyama" />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content="https://www.craftz.dog/card.png" />
+          <meta name="og:title" content="Lee Geon-Woo" />
+          // <meta property="og:type" content="website" />
+          // <meta property="og:image" content="https://www.craftz.dog/card.png" />
           <title>Lee Geon-woo - Homepage</title>
         </Head>
 
