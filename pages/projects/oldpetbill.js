@@ -17,20 +17,21 @@ const Project = () => (
         petBill <Badge>2021</Badge>
       </Title>
       <P>
-        공공 데이터를 활용한 전국 동물병원 진료비 안내 사이트 구축 
+        공공 데이터를 활용한 전국 동물병원 진료비 안내 사이트 구축. 지도를 통한 지역 동물병원의 위치 및 전화번호 안내와 함께 강아지, 고양이의 대표 질병 각 40여개의 질병정보 및 가격 비교 사이트 구축.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Data</Meta>
           <Link href="https://data.seoul.go.kr/">
             <ExternalLinkIcon mx="2px" />
-            서울시 (서울 열린데이터 광장) 
+            &nbsp;서울시 (서울 열린데이터 광장) 
           </Link>
-          &#44;&#32;
+          &#44;&nbsp;
           <Link href="https://www.data.go.kr/">
             <ExternalLinkIcon mx="2px" />
-            전국((서울시 제외) 공공 데이터포털) 
+            &nbsp;전국((서울시 제외) 공공 데이터포털) 
           </Link>
+            , PETPRICE&#40;App&#41;
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
