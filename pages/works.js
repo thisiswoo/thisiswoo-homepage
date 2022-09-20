@@ -23,7 +23,7 @@ const Works = () => (
         <Section>
           <WorkGridItem id="trans" title="Trans" thumbnail={trans1}>
             {/* Korea Certificate Documents Smart Translation System. */} 
-            각종 인증서 문서 스마트 번역 시스템. 
+            각종 인증 문서 스마트 번역 시스템. 
           </WorkGridItem>
         </Section>
         

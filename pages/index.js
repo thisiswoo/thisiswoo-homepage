@@ -25,7 +25,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          잠꾸러기 개발자
+          Record with the mind of a Record Repository.
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -58,7 +58,11 @@ const Page = () => {
             Who am I 
           </Heading>
           <Paragraph>
-            저는 1년차{' '}
+            저는 현재 서울 구로구에 위치한 {' '}
+            <NextLink href="https://kr.xiness.com/" passHref>
+              <Link target="_blank">자이네스</Link>
+            </NextLink>
+              에서 일을 하고 있는{' '}
             <NextLink href="/works/" passHref scroll={false}>
               <Link>Back-End</Link>
             </NextLink>
@@ -66,11 +70,11 @@ const Page = () => {
             <NextLink href="/projects/" passHref scroll={false}>
               <Link>Front-End</Link>
             </NextLink>
-            &ensp;작업과&ensp;
-            <NextLink href="/blog/" passHref scroll={false}>
-              <Link>Blog</Link>
+            &ensp;작업을 하고 있습니다. 저의 소중한 일상과 개발에 대한 소중한 자료들을 기록하기 위해 현재 개인&ensp;
+            <NextLink href="https://thisiswoo.github.io/" passHref>
+              <Link target="_blank">Blog</Link>
             </NextLink>
-            를 작업을 하고 있습니다.
+            를 운영 하고 있습니다.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
@@ -124,10 +128,7 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Samgyeopsal(Korean Pork belly), Exercise, watching e-Sports(LOL), watching EPL(Spus),{' '} 
-            <NextLink href="/books/" passHref scroll={false}>
-              <Link>Reading a Book </Link>
-            </NextLink>
+            삼겹살, 잠, 운동, 책, EPL&#40;COYS&#41; 경기 보기, e-Sports&#40;LOL&#41; 경기 보기
           </Paragraph>
         </Section>
   

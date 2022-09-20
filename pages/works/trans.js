@@ -26,11 +26,17 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>Java, Spring Boot, MySQL</span>
         </ListItem>
+        <ListItem>
+          <Meta>Company</Meta>
+          <span>Xiness co,.ltd</span>
+        </ListItem>
+
       </List>
 
       <WorkImage src="/images/works/trans/trans1.png" alt="Trans" />
       <WorkImage src="/images/works/trans/trans2.png" alt="Trans" />
       <WorkImage src="/images/works/trans/trans3.png" alt="Trans" />
+      <WorkImage src="/images/works/trans/trans4.png" alt="Trans" />
     </Container>
   </Layout>
 )

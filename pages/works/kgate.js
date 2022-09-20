@@ -39,6 +39,10 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>Java, Spring Boot, MySQL</span>
         </ListItem>
+        <ListItem>
+          <Meta>Company</Meta>
+          <span>Xiness co,.ltd</span>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/kgate/ov_kr_kgate1.jpg" alt="Kgate" />
