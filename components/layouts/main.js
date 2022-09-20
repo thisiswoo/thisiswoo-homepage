@@ -18,6 +18,8 @@ const Main = ({ children, router }) => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="Lee Geon-woo's homepage" />
           <meta name="author" content="Lee Geon-woo" />
+          <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           <meta property="og:site_name" content="Lee Geon-woo" />
           <meta name="og:title" content="Lee Geon-Woo" />
           <title>Lee Geon-woo - Homepage</title>
