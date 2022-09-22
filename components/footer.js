@@ -10,13 +10,13 @@ const Footer = () => {
     <Container maxW="container.sm">
       <Box align="center">
         <HStack spacing='24px' justify='center'>
-          <a href="https://github.com/thisiswoo" target="_blank">
+          <a href="https://github.com/thisiswoo" >
             <TbBrandGithub cursor="pointer"/>
           </a>
-          <a href="mailto:thisiswoo0594@gmail.com" target="_blank">
+          <a href="mailto:thisiswoo0594@gmail.com" >
             <TbBrandGmail cursor="pointer"/>
           </a>
-          <a href="https://instagram.com/samgyeopsalislove" target="_blank">
+          <a href="https://instagram.com/samgyeopsalislove" >
             <TbBrandInstagram cursor="pointer"/>
           </a>
         </HStack>
