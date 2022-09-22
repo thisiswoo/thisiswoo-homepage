@@ -3,9 +3,9 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
 import petbill1 from '../public/images/projects/old/petbill1.png'
 import working from '../public/images/working.png'
+import portfolio from '../public/images/projects/new/my_portfolio/my_portfolio1.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -22,11 +22,11 @@ const Projects = () => (
         </Section>
         <Section>
           <ProjectGridItem
-            id="kgate"
-            title="walknote"
-            thumbnail={ov_kr_kgate1}
+            id="portfolio"
+            title="My Portfolio"
+            thumbnail={portfolio}
           >
-            img size test 
+            나의 포트폴리오
           </ProjectGridItem>
         </Section>        
       </SimpleGrid>

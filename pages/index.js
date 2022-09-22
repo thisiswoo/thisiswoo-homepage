@@ -74,7 +74,7 @@ const Page = () => {
             <NextLink href="https://thisiswoo.github.io/" passHref>
               <Link target="_blank">Blog</Link>
             </NextLink>
-            를 운영 하고 있습니다.
+            를 운영 하고 있습니다. 저는 최고와 화려함 보다는 꾸준함과 평범함을 추구합니다.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>

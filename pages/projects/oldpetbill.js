@@ -41,6 +41,10 @@ const Project = () => (
           <Meta>Stack</Meta>
           <span>Java, Spring, OracleSQL</span>
         </ListItem>
+        <ListItem>
+          <Meta>Agency</Meta>
+          <span>Global IT Human Resources Development Institute</span>
+        </ListItem>
       </List>
 
       <ProjectImage src="/images/projects/old/petbill1.png" alt="petbill" />

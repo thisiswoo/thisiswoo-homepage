@@ -27,7 +27,7 @@ const Work = () => (
           <span>Java, Spring Boot, MySQL</span>
         </ListItem>
         <ListItem>
-          <Meta>Company</Meta>
+          <Meta>Agency</Meta>
           <span>Xiness co,.ltd</span>
         </ListItem>
 
