@@ -1,4 +1,4 @@
-import { Box, Container, Stack, HStack } from '@chakra-ui/react'
+import { Box, Container, HStack } from '@chakra-ui/react'
 import { 
   TbBrandGithub,
   TbBrandGmail,
