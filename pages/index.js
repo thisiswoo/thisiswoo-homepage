@@ -52,7 +52,6 @@ const Page = () => {
               />
           </Box>
         </Box>
-
   			<Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Who am I 
