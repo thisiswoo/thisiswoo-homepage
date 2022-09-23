@@ -105,7 +105,6 @@ const Navbar = props => {
 
         <Box flex={1} align="right">
 
-          {/*<ChangeLanguageButton />*/} 
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -128,7 +127,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/thisiswoo"
+                  href="https://thisiswoo.github.io"
                 >
                  Blog 
                 </MenuItem>
