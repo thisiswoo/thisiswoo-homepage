@@ -33,7 +33,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Lee Geon-Woo
             </Heading>
-            <p> 회사원...( Web Developer )</p>
+            <p>&ensp;&ensp;Full-Stack 개발을 지향하는 회사원...( Web Developer )</p>
           </Box> 
 				  <Box
             flexShrink={0}
