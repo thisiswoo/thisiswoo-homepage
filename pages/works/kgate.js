@@ -24,7 +24,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://kadmin.k-gate.info/manage/login">
-            https://gatedev1.xiness.com/manage <ExternalLinkIcon mx="2px" />
+            https://kadmin.k-gate.info/manage/login <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
