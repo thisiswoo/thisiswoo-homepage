@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://gatedev1.xiness.com/manage">
+          <Link href="https://kadmin.k-gate.info/manage/login">
             https://gatedev1.xiness.com/manage <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
