@@ -20,6 +20,7 @@ const Footer = () => {
             <TbBrandInstagram cursor="pointer"/>
           </a>
         </HStack>
+        <br />
       </Box>
       <Box align="center" opacity={0.4} fontSize="sm">
         &copy; {new Date().getFullYear()} This website is built based on the <a href='https://www.craftz.dog/'>Takuya Matsuyama&apos;s website</a>.
