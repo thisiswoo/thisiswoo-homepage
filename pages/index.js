@@ -25,7 +25,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          Record with the mind of a History Official.
+          Record with the mind of a Historical Official.
         </Box>
 
         <Box display={{ md: 'flex' }}>
