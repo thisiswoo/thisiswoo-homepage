@@ -25,7 +25,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          Record with the mind of a Record Repository.
+          Record with the mind of a History Official.
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -47,7 +47,7 @@ const Page = () => {
               maxWidth="100px" 
               display="inline-block" 
               borderRadius="full" 
-              src="/images/geonwoo-hp.jpg"
+              src="/images/me.png"
               alt="Profile Image"
               />
           </Box>
