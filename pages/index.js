@@ -38,7 +38,7 @@ const Page = () => {
               Lee Geon-Woo
             </Heading>
             <p>
-              &ensp;&ensp;<Text fontSize='md' as='b'>"모두의 기대에 부응하기 위해 노력하는 이건우입니다."</Text>
+              &ensp;&ensp;<Text fontSize='md' as='b'>&quot;꾸준함을 바탕으로 모두의 기대에 부응하기 위해 노력하는 이건우입니다.&quot;</Text>
             </p>
           </Box> 
 				  <Box
