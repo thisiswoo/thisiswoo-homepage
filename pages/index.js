@@ -11,12 +11,42 @@ import {
   Tag,
   TagLabel,
   TagRightIcon,
+  HStack,
 } from '@chakra-ui/react'
 import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { 
+  SiHtml5, 
+  SiCss3, 
+  SiJavascript,
+  SiJquery,
+  SiBootstrap,
+  SiSass,
+  SiVuedotjs,
+  SiReact,
+  SiNextdotjs,
+  SiJava,
+  SiMysql,
+  SiSpring,
+  SiSpringboot,
+  SiApache,
+  SiApachetomcat,
+  SiVercel,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiGitlab,
+  SiJirasoftware,
+  SiFigma,
+  SiVisualstudiocode,
+  SiIntellijidea,
+  SiEclipseide,
+  SiNeovim,
+  SiIterm2,
+} from "react-icons/si";
 
 const Page = () => {
 
@@ -136,11 +166,94 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>
-            Xiness co.,ltd
+            {' '}
+            <NextLink href="https://kr.xiness.com/" passHref>
+              <Link target="_blank">Xiness co.,ltd</Link>
+            </NextLink>
           </BioSection>
         </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Skills
+          </Heading>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='red'>
+                  <TagLabel>Frontend</TagLabel>
+                </Tag>
+              </Box>
+              <SiHtml5 size='30px'/>
+              <SiCss3 size='30px'/>
+              <SiJavascript size='30px'/>
+              <SiJquery size='30px'/>
+              <SiBootstrap size='30px'/>
+              <SiSass size='30px'/>
+              <SiVuedotjs size='30px'/>
+              <SiReact size='30px'/>
+              <SiNextdotjs size='30px'/>
+            </HStack>
+            <br/>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='cyan'>
+                  <TagLabel>Backend</TagLabel>
+                </Tag>
+              </Box>
+              <SiJava size='30px'/>
+              <SiSpring size='30px'/>
+              <SiSpringboot size='30px'/>
+              <SiMysql size='30px'/>
+            </HStack>
+            <br/>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='green'>
+                  <TagLabel>Deployment</TagLabel>
+                </Tag>
+              </Box>
+              <SiApache size='30px'/>
+              <SiApachetomcat size='30px'/>
+              <SiDocker size='30px'/>
+              <SiVercel size='30px'/>
+            </HStack>
+            <br/>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='yellow'>
+                  <TagLabel>VCS</TagLabel>
+                </Tag>
+              </Box>
+              <SiGit size='30px'/>
+              <SiGithub size='30px'/>
+              <SiGitlab size='30px'/>
+            </HStack>
+            <br/>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+                  <TagLabel>Collaborate</TagLabel>
+                </Tag>
+              </Box>
+              <SiJirasoftware size='30px'/>
+              <SiFigma size='30px'/>
+            </HStack>
+            <br/>
+            <HStack spacing='20px' justify='left'>
+              <Box w='96px'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+                  <TagLabel>Tools</TagLabel>
+                </Tag>
+              </Box>
+              <SiVisualstudiocode size='30px'/>
+              <SiNeovim size='30px'/>
+              <SiIterm2 size='30px'/>
+              <SiIntellijidea size='30px'/>
+              <SiEclipseide size='30px'/>
+            </HStack>
+        </Section>
   
-	  		<Section delay={0.3}>
+	  		<Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
