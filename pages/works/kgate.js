@@ -54,7 +54,9 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Agency</Meta>
-          <span>Xiness co,.ltd</span>
+          <Link href="https://kr.xiness.com/" target='_blank'>
+            Xiness co.,ltd
+          </Link>
         </ListItem>
       </List>
 
