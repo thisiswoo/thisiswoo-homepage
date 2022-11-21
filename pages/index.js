@@ -13,7 +13,7 @@ import {
   TagRightIcon,
   HStack,
 } from '@chakra-ui/react'
-import { ChevronRightIcon, CheckIcon, CheckCircleIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
