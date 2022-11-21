@@ -6,9 +6,13 @@ import {
   Image,
   Link,
   Button,
-  useColorModeValue
+  useColorModeValue,
+  Text,
+  Tag,
+  TagLabel,
+  TagRightIcon,
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -33,7 +37,9 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Lee Geon-Woo
             </Heading>
-            <p>&ensp;&ensp;Full-Stack 개발을 지향하는 회사원...( Web Developer )</p>
+            <p>
+              &ensp;&ensp;<Text fontSize='md' as='b'>"모두의 기대에 부응하기 위해 노력하는 이건우입니다."</Text>
+            </p>
           </Box> 
 				  <Box
             flexShrink={0}
@@ -44,10 +50,10 @@ const Page = () => {
             <Image borderColor="whiteAlpha.800" 
               borderWidth={2} 
               borderStyle="solid" 
-              maxWidth="100px" 
+              maxWidth="180px" 
               display="inline-block" 
               borderRadius="full" 
-              src="/images/me.png"
+              src="/images/job_photograph.jpg"
               alt="Profile Image"
               />
           </Box>
@@ -57,25 +63,36 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Who am I 
           </Heading>
-          <Paragraph>
-            저는 현재 서울 구로구에 위치한 {' '}
-            <NextLink href="https://kr.xiness.com/" passHref>
-              <Link target="_blank">자이네스</Link>
+          <Box>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Leadership(리더쉽)</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;교육기관에서 1,2차 프로젝트의 <b>팀장</b>을 맡게 되면서 1차 팀 프로젝트의 주제, 팀원들과 함께 마지막 프로젝트를 진행하게 되어 
+            성공적으로 프로젝트를 마무리할 수 있었습니다.<br/><br/>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Faithful(성실함)</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;교육 기간 내에 교육과 프로젝트에 <b>성실함</b>으로 임하여 {' '}
+            <NextLink href="/projects/oldpetbill" passHref scroll={false}>
+              <Link>모범상</Link>
             </NextLink>
-              에서 일을 하고 있는{' '}
-            <NextLink href="/works/" passHref scroll={false}>
-              <Link>Back-End</Link>
+            을 수상할 수 있었습니다.<br/><br/>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Steady(꾸준함)</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;이 모든 것은 꾸준함이 바탕이 되어 가능했다고 생각합니다. 
+            제가 뛰어나서 팀장을 맡은 것도, 제가 대단해서 모범상을 수상한 것도 아니라고 생각합니다.
+            그저 <b>꾸준함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
+            그의 결과가 {' '}
+            <NextLink href="/projects/oldpetbill" passHref scroll={false}>
+              <Link>모범상</Link>
             </NextLink>
-            &ensp;개발자 입니다. 취미로{' '} 
-            <NextLink href="/projects/" passHref scroll={false}>
-              <Link>Front-End</Link>
-            </NextLink>
-            &ensp;작업을 하고 있습니다. 저의 소중한 일상과 개발에 대한 소중한 자료들을 기록하기 위해 현재 개인&ensp;
-            <NextLink href="https://thisiswoo.github.io/" passHref>
-              <Link target="_blank">Blog</Link>
-            </NextLink>
-            를 운영 하고 있습니다. 저는 최고와 화려함 보다는 꾸준함과 평범함을 추구합니다.
-          </Paragraph>
+            이라는 결과로 이어졌다고 생각합니다.
+
+          </Box>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">

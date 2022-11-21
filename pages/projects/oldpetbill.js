@@ -45,8 +45,13 @@ const Project = () => (
           <Meta>Agency</Meta>
           <span>Global IT Human Resources Development Institute</span>
         </ListItem>
+        <ListItem>
+          <Meta>Award</Meta>
+          <span>Exemplary Award</span>
+        </ListItem>
       </List>
 
+      <ProjectImage src="/images/projects/old/exemplary_award.png" alt="petbill" />
       <ProjectImage src="/images/projects/old/petbill1.png" alt="petbill" />
       <ProjectImage src="/images/projects/old/petbill2.png" alt="petbill" />
       <ProjectImage src="/images/projects/old/petbill3.png" alt="petbill" />
