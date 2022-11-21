@@ -13,7 +13,7 @@ import {
   TagRightIcon,
   HStack,
 } from '@chakra-ui/react'
-import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, CheckIcon, CheckCircleIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -134,7 +134,7 @@ const Page = () => {
   
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Career
           </Heading>
           <BioSection>
             <BioYear>1989</BioYear>
@@ -171,6 +171,13 @@ const Page = () => {
               <Link target="_blank">Xiness co.,ltd</Link>
             </NextLink>
           </BioSection>
+          <Box align="center" my={4}>
+            <NextLink href="/works" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                Works
+              </Button>
+            </NextLink>
+          </Box>
         </Section>
 
         <Section delay={0.3}>
@@ -241,7 +248,7 @@ const Page = () => {
             <br/>
             <HStack spacing='20px' justify='left'>
               <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+                <Tag size='md' key='md' variant='subtle' colorScheme='purple'>
                   <TagLabel>Tools</TagLabel>
                 </Tag>
               </Box>

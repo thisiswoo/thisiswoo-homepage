@@ -23,13 +23,13 @@ const Project = () => (
         <ListItem>
           <Meta>Data</Meta>
           <Link href="https://data.seoul.go.kr/">
+            서울시(서울 열린데이터 광장) 
             <ExternalLinkIcon mx="2px" />
-            &nbsp;서울시 (서울 열린데이터 광장) 
           </Link>
           &#44;&nbsp;
           <Link href="https://www.data.go.kr/">
+            전국((서울시 제외) 공공 데이터포털) 
             <ExternalLinkIcon mx="2px" />
-            &nbsp;전국((서울시 제외) 공공 데이터포털) 
           </Link>
             , PETPRICE&#40;App&#41;
         </ListItem>

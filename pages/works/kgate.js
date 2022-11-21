@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="KGate2.0">
     <Container>
       <Title>
-        KGate2.0 <Badge>2022-</Badge>
+        KGate2.0 <Badge>2022</Badge>
       </Title>
       <P>
         AI 기반 안면인식 출입통제 시스템.<br />
@@ -23,9 +23,22 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://kadmin.k-gate.info/manage/login">
+          <Link href="https://kadmin.k-gate.info/manage/login" target='_blank'>
             https://kadmin.k-gate.info/manage/login <ExternalLinkIcon mx="2px" />
           </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Video</Meta>
+          <Link href="https://www.youtube.com/watch?v=NDNu2zGa6hU" target='_blank'>
+            소개영상1<ExternalLinkIcon mx="2px" />
+          </Link>,&nbsp;
+          <Link href="https://www.youtube.com/watch?v=yYo1dGl2X7E" target='_blank'>
+            소개영상2(한글)<ExternalLinkIcon mx="2px" />
+          </Link>,&nbsp;
+          <Link href="https://www.youtube.com/watch?v=AHPSdyxbkSY" target='_blank'>
+            소개영상3(영문) <ExternalLinkIcon mx="2px" />
+          </Link>
+          
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
