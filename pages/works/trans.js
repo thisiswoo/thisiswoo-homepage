@@ -1,6 +1,7 @@
 import {
   Container,
   Badge,
+  Link,
   List,
   ListItem,
 } from '@chakra-ui/react'
@@ -28,7 +29,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Agency</Meta>
-          <span>Xiness co,.ltd</span>
+          <Link href="https://kr.xiness.com/" target='_blank'>
+            Xiness co.,ltd
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Tasks</Meta>
+          <span>주민등록증 번역 및 doc확장자 파일 다운로드 구현</span>
         </ListItem>
 
       </List>

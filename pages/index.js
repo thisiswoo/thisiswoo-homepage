@@ -101,10 +101,28 @@ const Page = () => {
             &nbsp;교육기관에서 1,2차 프로젝트의 <b>팀장</b>을 맡게 되면서 1차 팀 프로젝트의 주제, 팀원들과 함께 마지막 프로젝트를 진행하게 되어 
             성공적으로 프로젝트를 마무리할 수 있었습니다.<br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Unity(단합력)</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;모두 비전공자이고 각기 다른 삶을 살아왔던 저희 팀원들을 단합할 수 있었던 이유는
+            작은 배려로 인해 가능했던 거 같습니다. 프로젝트에 힘들어하면 작은 위로와 격려를 통해 팀원들의
+            사기를 높이게 하고, 팀장으로서 권위적인 모습보단 친근한 형이나 오빠의 모습으로 다가가려 노력했던 
+            모습들이 우리 팀원들을 낙오자 없이 <b>단합</b>시킬 수 있었던 이유입니다.<br/><br/>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Drive(추진력)</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;파이널 프로젝트 때 팀원들의 프로젝트 구상들이 서로 달라 오랫동안 회의를 진행했었습니다.
+            강사님과의 회의에서도 프로젝트 진행이 더디어 프로젝트 완성할 수 있겠냐?라는 말까지 듣게 되었는데,
+            제가 팀원들에게 우리가 추가하려던 기능들 다 제거하고, 우리 프로젝트의 가장 기본이 되는 정보제공으로
+            초점을 맞추어 작업을 하자고 제안하였습니다. 팀원들 모두 저의 말에 동의하고 프로젝트를 시작할 수 있었습니다.
+            우리 모두가 프로젝트에 대한 갈피를 못 잡을 때 저의 <b>추진력</b>
+            으로 인해 프로젝트를 시작하게 되었습니다.<br/><br/>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Faithful(성실함)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;교육 기간 내에 교육과 프로젝트에 <b>성실함</b>으로 임하여 {' '}
+            &nbsp;위와 같은 사례들을 바탕으로 교육 기간 내에 교육과 프로젝트에 <b>성실함</b>으로 임하여 {' '}
             <NextLink href="/projects/oldpetbill" passHref scroll={false}>
               <Link>모범상</Link>
             </NextLink>

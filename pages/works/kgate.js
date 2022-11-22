@@ -58,6 +58,13 @@ const Work = () => (
             Xiness co.,ltd
           </Link>
         </ListItem>
+        <ListItem>
+          <Meta>Tasks</Meta>
+          <span>
+            등록 출입자 또는 미등록 출입자 출입 시 담당자에 SMS 안내 발송 및 카메라, 게이트 등록/세팅
+            고객사, 사용자 관리 및 출입 이력 관리
+          </span>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/kgate/ov_kr_kgate1.jpg" alt="Kgate" />
