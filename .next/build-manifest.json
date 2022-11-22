@@ -30,20 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/projects.js"
     ],
-    "/works": [
+    "/projects/tag": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works.js"
+      "static/chunks/pages/projects/tag.js"
     ],
-    "/works/kgate": [
+    "/projects/thumbnail": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/kgate.js"
-    ],
-    "/works/trans": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/trans.js"
+      "static/chunks/pages/projects/thumbnail.js"
     ]
   },
   "ampFirstPages": []

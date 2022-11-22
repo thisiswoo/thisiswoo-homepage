@@ -49,7 +49,7 @@ import {
           <ListItem>
             <Meta>Info</Meta>
             <span>
-                아래 이미지들의 원작자 님의 포스트를 참고하였습니다.
+                아래 이미지들은 원작자 님의 포스트를 참고하였습니다.
             </span>
           </ListItem>
         </List>
