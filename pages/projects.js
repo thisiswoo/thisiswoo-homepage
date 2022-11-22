@@ -11,7 +11,7 @@ import tag from '../public/images/projects/new/tag_maker/tag_main_720x400.png'
 const Projects = () => (
   <Layout title="Projects">
     <Container>
-      <Heading as="h3" fontSize={40} mb={4}>
+      <Heading as="h3" fontSize={30} mb={6}>
         Projects
       </Heading>
 
