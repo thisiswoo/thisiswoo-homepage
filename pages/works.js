@@ -3,8 +3,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import ov_kr_kgate1 from '../public/images/works/kgate/ov_kr_kgate1.jpg'
-import trans1 from '../public/images/works/trans/trans1.png'
+import kgate1 from '../public/images/works/kgate/kgate1_main_720x400.jpg'
+import trans from '../public/images/works/trans/trans_main_720x400.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -15,13 +15,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 				<Section>
-          <WorkGridItem id="kgate" title="KGate2.0" thumbnail={ov_kr_kgate1}>
+          <WorkGridItem id="kgate" title="KGate2.0" thumbnail={kgate1}>
             {/* AI-based facial recognition access control system. */}
             AI 기반 안면인식 출입 통제 시스템.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="trans" title="Trans" thumbnail={trans1}>
+          <WorkGridItem id="trans" title="Trans" thumbnail={trans}>
             {/* Korea Certificate Documents Smart Translation System. */} 
             각종 인증 문서 스마트 번역 시스템. 
           </WorkGridItem>

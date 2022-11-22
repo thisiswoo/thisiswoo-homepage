@@ -3,9 +3,10 @@ import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import petbill1 from '../public/images/projects/old/petbill1.png'
-import working from '../public/images/working.png'
-import portfolio from '../public/images/projects/new/my_portfolio/my_portfolio1.png'
+import petbill1 from '../public/images/projects/old/petbill_main_720x400.png'
+import portfolio from '../public/images/projects/new/my_portfolio/portfolio_main_720x400.png'
+import thumbnail from '../public/images/projects/new/thumbnail_maker/thumbnail_main_720x400.png'
+import tag from '../public/images/projects/new/tag_maker/tag_main_720x400.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -14,13 +15,29 @@ const Projects = () => (
         Projects
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-				<Section>
-          <ProjectGridItem id="#" title="petBill 프로젝트 리뉴얼 중..." thumbnail={working}>
-            petBill 리뉴얼 작업 중... 
+      <SimpleGrid columns={[1, 1, 2]} gap={4}>
+        <Section delay={0.1}>
+          <ProjectGridItem 
+            id="tag" 
+            title="Tag Maker" 
+            thumbnail={tag}
+          >
+            vue3로 refactoring한 태그 메이커
           </ProjectGridItem>
         </Section>
-        <Section>
+				<Section delay={0.1}>
+          <ProjectGridItem 
+            id="thumbnail" 
+            title="Thumbnail Maker" 
+            thumbnail={thumbnail}
+          >
+            vue3로 refactoring한 썸네일 메이커
+          </ProjectGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={4}>
+        <Section delay={0.2}>
           <ProjectGridItem
             id="portfolio"
             title="My Portfolio"
@@ -31,15 +48,15 @@ const Projects = () => (
         </Section>        
       </SimpleGrid>
 
-      <Section delay={0.1}>
+      <Section delay={0.3}>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
           Old Projects
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.2}>
+      <SimpleGrid columns={[1, 1, 2]} gap={4}>
+        <Section delay={0.4}>
           <ProjectGridItem
             id="oldpetbill"
             title="petBill"
