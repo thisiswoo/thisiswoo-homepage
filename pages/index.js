@@ -106,8 +106,9 @@ const Page = () => {
               <TagLabel>Faithful(성실함)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;<b>성실함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
-            1차 프로젝트 내용을 더 발전시켜 기존 팀원들과 함께 마지막 프로텍트를 성공적으로 마무리하게 되어 {' '}
+            &nbsp;팀원들의 화합과 성공적인 프로젝트의 배경에는 저의 <b>성실함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
+            1차 프로젝트 내용을 더 발전시켜 기존 팀원들과 함께 마지막 프로텍트를 성공적으로 마무리할 수 있었습니다.
+            그 결과 {' '}
             <NextLink href="/projects/oldpetbill" passHref scroll={false}>
               <Link>모범상</Link>
             </NextLink>
