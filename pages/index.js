@@ -98,47 +98,28 @@ const Page = () => {
               <TagLabel>Leadership(리더쉽)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;교육기관에서 1,2차 프로젝트의 <b>팀장</b>을 맡게 되면서 1차 팀 프로젝트의 주제, 팀원들과 함께 마지막 프로젝트를 진행하게 되어 
-            성공적으로 프로젝트를 마무리할 수 있었습니다.<br/><br/>
-            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
-              <TagLabel>Unity(단합력)</TagLabel>
-              <TagRightIcon as={CheckIcon} />
-            </Tag>
-            &nbsp;모두 비전공자이고 각기 다른 삶을 살아왔던 저희 팀원들을 단합할 수 있었던 이유는
-            작은 배려로 인해 가능했던 거 같습니다. 프로젝트에 힘들어하면 작은 위로와 격려를 통해 팀원들의
-            사기를 높이게 하고, 팀장으로서 권위적인 모습보단 친근한 형이나 오빠의 모습으로 다가가려 노력했던 
-            모습들이 우리 팀원들을 낙오자 없이 <b>단합</b>시킬 수 있었던 이유입니다.<br/><br/>
-            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
-              <TagLabel>Drive(추진력)</TagLabel>
-              <TagRightIcon as={CheckIcon} />
-            </Tag>
-            &nbsp;파이널 프로젝트 때 팀원들의 프로젝트 구상들이 서로 달라 오랫동안 회의를 진행했었습니다.
-            강사님과의 회의에서도 프로젝트 진행이 더디어 프로젝트 완성할 수 있겠냐?라는 말까지 듣게 되었는데,
-            제가 팀원들에게 우리가 추가하려던 기능들 다 제거하고, 우리 프로젝트의 가장 기본이 되는 정보제공으로
-            초점을 맞추어 작업을 하자고 제안하였습니다. 팀원들 모두 저의 말에 동의하고 프로젝트를 시작할 수 있었습니다.
-            우리 모두가 프로젝트에 대한 갈피를 못 잡을 때 저의 <b>추진력</b>
-            으로 인해 프로젝트를 시작하게 되었습니다.<br/><br/>
+            &nbsp;모두 비전공자이고 각기 다른 삶을 살아왔던 저희 팀원들을 단합할 수 있었던 이유는 작은 배려로 인해 가능했던 거 같습니다. 
+            보통 교육기관에서 1차 프로젝트 후 각자의 생각과 개성이 달라 파이널 프로젝트는 새로운 인원들과 새로운 프로젝트를 하게 되는 경우가 많습니다. 
+            하지만 제가 <b>팀장</b>으로 함께했던 팀은 1차 프로젝트 내용뿐만 아니라 인원들도 함께 프로젝트 내용을 더 발전시켜
+            낙오자 한 명도 없이 파이널 프로젝트를 성공적으로 마무리하게 되었습니다.<br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Faithful(성실함)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;위와 같은 사례들을 바탕으로 교육 기간 내에 교육과 프로젝트에 <b>성실함</b>으로 임하여 {' '}
+            &nbsp;<b>성실함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
+            1차 프로젝트 내용을 더 발전시켜 기존 팀원들과 함께 마지막 프로텍트를 성공적으로 마무리하게 되어 {' '}
             <NextLink href="/projects/oldpetbill" passHref scroll={false}>
               <Link>모범상</Link>
             </NextLink>
             을 수상할 수 있었습니다.<br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
-              <TagLabel>Steady(꾸준함)</TagLabel>
+              <TagLabel>Responsibility(책임감)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;이 모든 것은 꾸준함이 바탕이 되어 가능했다고 생각합니다. 
-            제가 뛰어나서 팀장을 맡은 것도, 제가 대단해서 모범상을 수상한 것도 아니라고 생각합니다.
-            그저 <b>꾸준함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
-            그의 결과가 {' '}
-            <NextLink href="/projects/oldpetbill" passHref scroll={false}>
-              <Link>모범상</Link>
-            </NextLink>
-            이라는 결과로 이어졌다고 생각합니다.
+            &nbsp;과거 마케팅 회사에서 재직 시 맡은 업무 중 하나가 전시회에 참여하여 회사 제품을 홍보하고 판매하는 업무를 맡았습니다.
+            전시회 3일을 저희 제품 완판이라는 기록을 세우고 현장에 제품이 모자라 온라인으로 추가 구매를 유도하여 판매를 늘리게 됩니다.
+            그리하여 전국 큰 전시회를 다니면서 현장 제품 완판과 함께 온라인 추가 구매까지 이어지게 하여 회사에 보탬이 되었습니다.
+            이처럼 저는 맡은 업무뿐만 아니라 회사에 보탬이 되고자 노력하는 책임감을 갖고 있습니다. <br/><br/>
 
           </Box>
           <Box align="center" my={4}>
