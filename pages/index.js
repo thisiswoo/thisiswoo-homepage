@@ -140,27 +140,27 @@ const Page = () => {
             Career
           </Heading>
           <BioSection>
-            <BioYear>2010</BioYear>
+            <BioYear>2008-2010</BioYear>
             대한민국 육군 병장 만기제대. 
           </BioSection>
           <BioSection>
-            <BioYear>2014</BioYear>
+            <BioYear>2010-2012</BioYear>
             의류 온라인 쇼핑몰 사업.
           </BioSection>
           <BioSection>
-            <BioYear>2016</BioYear>
+            <BioYear>2012-2014</BioYear>
             CI 텔레콤에서 재고 관리 부서에서 근무. 
           </BioSection>
           <BioSection>
-            <BioYear>2018</BioYear>
+            <BioYear>2014-2016</BioYear>
             미리에서 마케팅 및 전시 업무 담당.
           </BioSection>
           <BioSection>
-            <BioYear>2020</BioYear>
+            <BioYear>2016-2018</BioYear>
             하나전기 인테리어 전기시공팀에서 근무.
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
+            <BioYear>2021-2021</BioYear>
             글로벌IT 인재개발원 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
           </BioSection>
           <BioSection>
