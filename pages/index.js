@@ -12,6 +12,8 @@ import {
   TagLabel,
   TagRightIcon,
   HStack,
+  Wrap,
+  WrapItem,
 } from '@chakra-ui/react'
 import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
@@ -98,9 +100,9 @@ const Page = () => {
               <TagLabel>Leadership(리더쉽)</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;모두 비전공자이고 각기 다른 삶을 살아왔던 저희 팀원들을 단합할 수 있었던 이유는 작은 배려로 인해 가능했던 거 같습니다. 
-            보통 교육기관에서 1차 프로젝트 후 각자의 생각과 개성이 달라 파이널 프로젝트는 새로운 인원들과 새로운 프로젝트를 하게 되는 경우가 많습니다. 
-            하지만 제가 <b>팀장</b>으로 함께했던 팀은 1차 프로젝트 내용뿐만 아니라 인원들도 함께 프로젝트 내용을 더 발전시켜
+            &nbsp;모두 비전공자이고 각기 다른 삶을 살아왔던 저희 팀원들을 단합할 수 있었던 이유는 작은 <b>배려</b>로 인해 가능했던 거 같습니다. 
+            보통 교육기관에서 1차 프로젝트 후 각자의 생각과 개성이 달라 파이널 프로젝트는 새로운 인원들과 새로운 프로젝트를 하게 되는 경우가 많습니다.
+            하지만 저희 팀원들은 서로를 배려하고, 응원해 주고, 힘들어하는 팀원이 있으면 다독여주고, 용기를 아주어 1차 프로젝트 내용뿐만 아니라 인원들도 함께 프로젝트 내용을 더 발전시켜
             낙오자 한 명도 없이 파이널 프로젝트를 성공적으로 마무리하게 되었습니다.<br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Faithful(성실함)</TagLabel>
@@ -108,11 +110,11 @@ const Page = () => {
             </Tag>
             &nbsp;팀원들의 화합과 성공적인 프로젝트의 배경에는 저의 <b>성실함</b>이 밑 바탕이 되어 팀원들을 아우를 수 있었고, 그 덕에 프로젝트를 성공적으로 완료했으며,
             1차 프로젝트 내용을 더 발전시켜 기존 팀원들과 함께 마지막 프로텍트를 성공적으로 마무리할 수 있었습니다.
-            그 결과 {' '}
+            그 결과 모범상을 수상할 수 있었습니다. {' '}
             <NextLink href="/projects/oldpetbill" passHref scroll={false}>
-              <Link>모범상</Link>
+              <Link>프로젝트 보기.</Link>
             </NextLink>
-            을 수상할 수 있었습니다.<br/><br/>
+            <br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Responsibility(책임감)</TagLabel>
               <TagRightIcon as={CheckIcon} />
@@ -126,7 +128,7 @@ const Page = () => {
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                My portfolio
+                Projects
               </Button>
             </NextLink>
           </Box>
@@ -137,32 +139,28 @@ const Page = () => {
             Career
           </Heading>
           <BioSection>
-            <BioYear>1989</BioYear>
-            대한민국 광명시.
-          </BioSection>
-          <BioSection>
-            <BioYear>2010</BioYear>
+            <BioYear>2018 - 2010</BioYear>
             대한민국 육군 병장 만기제대. 
           </BioSection>
           <BioSection>
-            <BioYear>2014</BioYear>
+            <BioYear>2012 - 2014</BioYear>
             의류 온라인 쇼핑몰 사업.
           </BioSection>
           <BioSection>
-            <BioYear>2016</BioYear>
+            <BioYear>2014 - 2016</BioYear>
             CI 텔레콤에서 재고 관리 부서에서 근무. 
           </BioSection>
           <BioSection>
-            <BioYear>2018</BioYear>
+            <BioYear>2016 - 2018</BioYear>
             미리에서 마케팅 및 전시 업무 담당.
           </BioSection>
           <BioSection>
-            <BioYear>2020</BioYear>
+            <BioYear>2018 - 2020</BioYear>
             하나전기 인테리어 전기시공팀에서 근무.
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
-            글로벌IT 인재개발원에서 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
+            <BioYear>2021 - 2021</BioYear>
+            글로벌IT 인재개발원 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>
@@ -184,21 +182,41 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Skills
           </Heading>
-            <HStack spacing='20px' justify='left'>
+            <HStack spacing='20px' justify='left' >
               <Box w='96px'>
                 <Tag size='md' key='md' variant='subtle' colorScheme='red'>
                   <TagLabel>Frontend</TagLabel>
                 </Tag>
               </Box>
-              <SiHtml5 size='30px'/>
-              <SiCss3 size='30px'/>
-              <SiJavascript size='30px'/>
-              <SiJquery size='30px'/>
-              <SiBootstrap size='30px'/>
-              <SiSass size='30px'/>
-              <SiVuedotjs size='30px'/>
-              <SiReact size='30px'/>
-              <SiNextdotjs size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiHtml5 size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiCss3 size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiJavascript size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiJquery size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiBootstrap size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiSass size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiVuedotjs size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiReact size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiNextdotjs size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
@@ -207,10 +225,20 @@ const Page = () => {
                   <TagLabel>Backend</TagLabel>
                 </Tag>
               </Box>
-              <SiJava size='30px'/>
-              <SiSpring size='30px'/>
-              <SiSpringboot size='30px'/>
-              <SiMysql size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiJava size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiSpring size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiSpringboot size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiMysql size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
@@ -219,10 +247,20 @@ const Page = () => {
                   <TagLabel>Deployment</TagLabel>
                 </Tag>
               </Box>
-              <SiApache size='30px'/>
-              <SiApachetomcat size='30px'/>
-              <SiDocker size='30px'/>
-              <SiVercel size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiApache size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiApachetomcat size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiDocker size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiVercel size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
@@ -231,9 +269,17 @@ const Page = () => {
                   <TagLabel>VCS</TagLabel>
                 </Tag>
               </Box>
-              <SiGit size='30px'/>
-              <SiGithub size='30px'/>
-              <SiGitlab size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiGit size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiGithub size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiGitlab size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
@@ -242,8 +288,14 @@ const Page = () => {
                   <TagLabel>Collaborate</TagLabel>
                 </Tag>
               </Box>
-              <SiJirasoftware size='30px'/>
-              <SiFigma size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiJirasoftware size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiFigma size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
@@ -252,11 +304,23 @@ const Page = () => {
                   <TagLabel>Tools</TagLabel>
                 </Tag>
               </Box>
-              <SiVisualstudiocode size='30px'/>
-              <SiNeovim size='30px'/>
-              <SiIterm2 size='30px'/>
-              <SiIntellijidea size='30px'/>
-              <SiEclipseide size='30px'/>
+              <Wrap>
+                <WrapItem>
+                  <SiVisualstudiocode size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiNeovim size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiIterm2 size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiIntellijidea size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiEclipseide size='30px'/>
+                </WrapItem>
+              </Wrap>
             </HStack>
         </Section>
   
