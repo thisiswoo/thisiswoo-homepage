@@ -14,6 +14,8 @@ import {
   HStack,
   Wrap,
   WrapItem,
+  Center,
+  Badge,
 } from '@chakra-ui/react'
 import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
@@ -139,27 +141,27 @@ const Page = () => {
             Career
           </Heading>
           <BioSection>
-            <BioYear>2018 - 2010</BioYear>
+            <BioYear>2010</BioYear>
             대한민국 육군 병장 만기제대. 
           </BioSection>
           <BioSection>
-            <BioYear>2012 - 2014</BioYear>
+            <BioYear>2014</BioYear>
             의류 온라인 쇼핑몰 사업.
           </BioSection>
           <BioSection>
-            <BioYear>2014 - 2016</BioYear>
+            <BioYear>2016</BioYear>
             CI 텔레콤에서 재고 관리 부서에서 근무. 
           </BioSection>
           <BioSection>
-            <BioYear>2016 - 2018</BioYear>
+            <BioYear>2018</BioYear>
             미리에서 마케팅 및 전시 업무 담당.
           </BioSection>
           <BioSection>
-            <BioYear>2018 - 2020</BioYear>
+            <BioYear>2020</BioYear>
             하나전기 인테리어 전기시공팀에서 근무.
           </BioSection>
           <BioSection>
-            <BioYear>2021 - 2021</BioYear>
+            <BioYear>2021</BioYear>
             글로벌IT 인재개발원 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
           </BioSection>
           <BioSection>
@@ -183,11 +185,11 @@ const Page = () => {
             Skills
           </Heading>
             <HStack spacing='20px' justify='left' >
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='red'>
-                  <TagLabel>Frontend</TagLabel>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='red'>
+                  <TagLabel align='end'>Frontend</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiHtml5 size='30px'/>
@@ -220,11 +222,11 @@ const Page = () => {
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='cyan'>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='cyan'>
                   <TagLabel>Backend</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiJava size='30px'/>
@@ -242,11 +244,11 @@ const Page = () => {
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='green'>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='green'>
                   <TagLabel>Deployment</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiApache size='30px'/>
@@ -264,11 +266,11 @@ const Page = () => {
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='yellow'>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='yellow'>
                   <TagLabel>VCS</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiGit size='30px'/>
@@ -283,11 +285,11 @@ const Page = () => {
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='blue'>
                   <TagLabel>Collaborate</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiJirasoftware size='30px'/>
@@ -299,11 +301,11 @@ const Page = () => {
             </HStack>
             <br/>
             <HStack spacing='20px' justify='left'>
-              <Box w='96px'>
-                <Tag size='md' key='md' variant='subtle' colorScheme='purple'>
+              <Center>
+                <Tag w={110} size='md' key='md' variant='subtle' colorScheme='purple'>
                   <TagLabel>Tools</TagLabel>
                 </Tag>
-              </Box>
+              </Center>
               <Wrap>
                 <WrapItem>
                   <SiVisualstudiocode size='30px'/>
