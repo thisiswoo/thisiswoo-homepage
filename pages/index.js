@@ -83,7 +83,7 @@ const Page = () => {
             <Image borderColor="whiteAlpha.800" 
               borderWidth={2} 
               borderStyle="solid" 
-              maxWidth="180px" 
+              maxWidth="150px" 
               display="inline-block" 
               borderRadius="full" 
               src="/images/job_photograph.jpg"
