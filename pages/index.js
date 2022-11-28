@@ -16,7 +16,8 @@ import {
   WrapItem,
   Center,
 } from '@chakra-ui/react'
-import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
+// import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
+import { CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
