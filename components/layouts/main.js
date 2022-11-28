@@ -1,16 +1,17 @@
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
-import NavBar from '../navbar'
+// import dynamic from 'next/dynamic'
+// import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelDogLoader from '../voxel-dog-loader'
+// import VoxelDogLoader from '../voxel-dog-loader'
 
-const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
-  ssr: false,
-  loading: () => <VoxelDogLoader />
-})
+// const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
+//   ssr: false,
+//   loading: () => <VoxelDogLoader />
+// })
 
-const Main = ({ children, router }) => {
+// const Main = ({ children, router }) => {
+const Main = ({ children }) => {
   return (
 
       <Box as="main" pb={8}>
@@ -25,10 +26,10 @@ const Main = ({ children, router }) => {
           <title>Lee Geon-woo - Homepage</title>
         </Head>
 
-        <NavBar path={router.asPath} />
+        {/* <NavBar path={router.asPath} /> */}
 
         <Container maxW="container.md" pt={14}>
-          <LazyVoxelDog />
+          {/* <LazyVoxelDog /> */}
 
           {children}
 

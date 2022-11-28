@@ -126,13 +126,13 @@ const Page = () => {
             이처럼 저는 맡은 업무뿐만 아니라 회사에 보탬이 되고자 노력하는 <b>책임감</b>을 갖고 있습니다. <br/><br/>
 
           </Box>
-          <Box align="center" my={4}>
+          {/* <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Projects
               </Button>
             </NextLink>
-          </Box>
+          </Box> */}
         </Section>
   
         <Section delay={0.2}>
@@ -166,17 +166,19 @@ const Page = () => {
           <BioSection>
             <BioYear>2021 to present</BioYear>
             {' '}
-            <NextLink href="https://kr.xiness.com/" passHref>
-              <Link target="_blank">Xiness co.,ltd</Link>
+            {/* <NextLink href="https://kr.xiness.com/" passHref> */}
+            <NextLink href="/works" passHref>
+              {/* <Link target="_blank">Xiness co.,ltd</Link> */}
+              <Link>Xiness co.,ltd</Link>
             </NextLink>
           </BioSection>
-          <Box align="center" my={4}>
+          {/* <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Works
               </Button>
             </NextLink>
-          </Box>
+          </Box> */}
         </Section>
 
         <Section delay={0.3}>
