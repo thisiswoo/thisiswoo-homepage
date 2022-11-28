@@ -5,7 +5,7 @@ import {
   Heading,
   Image,
   Link,
-  // Button,
+  Button,
   useColorModeValue,
   Text,
   Tag,
@@ -16,8 +16,7 @@ import {
   WrapItem,
   Center,
 } from '@chakra-ui/react'
-// import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
-import { CheckIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, CheckIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -127,13 +126,13 @@ const Page = () => {
             이처럼 저는 맡은 업무뿐만 아니라 회사에 보탬이 되고자 노력하는 <b>책임감</b>을 갖고 있습니다. <br/><br/>
 
           </Box>
-          {/* <Box align="center" my={4}>
+          <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Projects
               </Button>
             </NextLink>
-          </Box> */}
+          </Box>
         </Section>
   
         <Section delay={0.2}>
@@ -173,13 +172,13 @@ const Page = () => {
               <Link>Xiness co.,ltd</Link>
             </NextLink>
           </BioSection>
-          {/* <Box align="center" my={4}>
+          <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Works
               </Button>
             </NextLink>
-          </Box> */}
+          </Box>
         </Section>
 
         <Section delay={0.3}>
