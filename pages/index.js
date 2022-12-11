@@ -62,7 +62,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          I will record with the mind of a history official.
+          The important thing is an unbreakable heart.
         </Box>
 
         <Box display={{ md: 'flex' }}>
