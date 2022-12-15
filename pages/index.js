@@ -144,19 +144,19 @@ const Page = () => {
             대한민국 육군 병장 만기제대. 
           </BioSection>
           <BioSection>
-            <BioYear>2010-2012</BioYear>
+            <BioYear>2012-2014</BioYear>
             의류 온라인 쇼핑몰 사업.
           </BioSection>
           <BioSection>
-            <BioYear>2012-2014</BioYear>
+            <BioYear>2014-2016</BioYear>
             CI 텔레콤에서 재고 관리 부서에서 근무. 
           </BioSection>
           <BioSection>
-            <BioYear>2014-2016</BioYear>
+            <BioYear>2016-2018</BioYear>
             미리에서 마케팅 및 전시 업무 담당.
           </BioSection>
           <BioSection>
-            <BioYear>2016-2018</BioYear>
+            <BioYear>2018-2020</BioYear>
             하나전기 인테리어 전기시공팀에서 근무.
           </BioSection>
           <BioSection>
