@@ -31,6 +31,7 @@ import {
   SiVuedotjs,
   SiReact,
   SiNextdotjs,
+  SiMarkdown,
   SiJava,
   SiMysql,
   SiSpring,
@@ -218,6 +219,9 @@ const Page = () => {
                 </WrapItem>
                 <WrapItem>
                   <SiNextdotjs size='30px'/>
+                </WrapItem>
+                <WrapItem>
+                  <SiMarkdown size='30px'/>
                 </WrapItem>
               </Wrap>
             </HStack>
