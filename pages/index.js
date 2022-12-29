@@ -63,7 +63,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          The important thing is an unbreakable heart.
+          Effort never betrays. The important thing is an unbreakable heart.
         </Box>
 
         <Box display={{ md: 'flex' }}>

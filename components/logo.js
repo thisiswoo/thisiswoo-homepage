@@ -31,7 +31,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            이건우의 끄적끄적
+            따라쟁이 개발자
           </Text>
         </LogoBox>
       </a>
