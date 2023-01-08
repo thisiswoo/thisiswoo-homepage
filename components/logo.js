@@ -31,7 +31,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            따라쟁이 개발자
+            기록을 사관처럼 
           </Text>
         </LogoBox>
       </a>
