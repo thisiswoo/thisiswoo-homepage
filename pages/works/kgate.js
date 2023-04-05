@@ -82,7 +82,7 @@ const Work = () => (
             </WrapItem>
             <WrapItem>
               <Text fontSize='md'>
-                - Apache POI 라이브러리를 이용한 개인정보 조회 이력 엑셀 다운로드 개발
+                - Apache POI, i18n 라이브러리를 이용한 개인정보 조회 이력 엑셀 다운로드 개발 및 다국어 모드 적용
               </Text>
             </WrapItem>
             <WrapItem>
