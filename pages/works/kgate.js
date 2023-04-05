@@ -3,7 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
+  ListItem, WrapItem, Text, Wrap,
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -17,14 +17,13 @@ const Work = () => (
         KGate2.0 <Badge>2022</Badge>
       </Title>
       <P>
-        AI 기반 안면인식 출입통제 시스템.<br />
-        출입자 자동 발열 체크, 얼굴 자동 인식, 비접촉식 99.9% 살균 손세정제, 근태관리 시스템.
+        안면인식 출입통제 권한 별 시스템/운영자 어드민 웹 개발
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://kadmin.k-gate.info/manage/login" target='_blank'>
-            https://kadmin.k-gate.info/manage/login <ExternalLinkIcon mx="2px" />
+            K-Gate <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -46,24 +45,57 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Server</Meta>
-          <span>Windows Server, Linux Server</span>
+          <span>Linux, Windows</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java, Spring Boot, MySQL</span>
+          <span>Java, Spring Boot, MySQL, JPA, Querydsl, Gradle, Maven</span>
         </ListItem>
         <ListItem>
           <Meta>Agency</Meta>
           <Link href="https://kr.xiness.com/" target='_blank'>
-            Xiness co.,ltd
+            자이네스
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Tasks</Meta>
-          <span>
-            등록 출입자 또는 미등록 출입자 출입 시 담당자에 SMS 안내 발송 및 카메라, 게이트 등록/세팅
-            고객사, 사용자 관리 및 출입 이력 관리
-          </span>
+          <Wrap>
+            <WrapItem>
+              <Text fontSize='md'>
+                - Spring Boot와 QueryDSL을 활용한 권한 별 사용자/어드민 페이지 개발
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - Mini Computer(Window/Linux)와 안드로이드 SDK를 이용하여 출입관리 시스템 구축
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - Google 원격을 통한 Mini Computer와의 원격 제어 구현
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - Spring Scheduler를 활용한 주기적인 데이터 관리
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - Apache POI 라이브러리를 이용한 개인정보 조회 이력 엑셀 다운로드 개발
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - [접근 권한 : 시스템] - (서비스 관리)계정관리, 고객사별 게이트 관리 / SMS알림톡 이력 관리 / (설정) 카메라 설정, 게이트 설정 / 공지사항 개발
+              </Text>
+            </WrapItem>
+            <WrapItem>
+              <Text fontSize='md'>
+                - [접근 권한 : 운영자] - (서비스 관리) 기본 정보 관리, 담당자 관리, 게이트 관리, 개인정보 조회 관리 / (사용자 관리) 이벤트 처리 상태 관리 / SMS알림톡 이력 관리 / 출입이력 관리 / (공지사항) 시스템 공지사항, 사내 공지사항 개발
+              </Text>
+            </WrapItem>
+          </Wrap>
         </ListItem>
       </List>
 

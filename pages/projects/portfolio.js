@@ -14,10 +14,10 @@ const Work = () => (
   <Layout title="My Portfolio">
     <Container>
       <Title>
-        My Portfolio <Badge>2022</Badge>
+        My Portfolio 웹 사이트 만들기 <Badge>2022</Badge>
       </Title>
       <P>
-        Next.js, Chakra UI,  Framer Motion, Three.js를 활용한 포트폴리오 사이트 만들기. 
+        Next.js, Chakra UI를 이용하여 화면 구성, MagicaVoxel, Blender를 활용한 메인 캐릭터 생성, Framer Motion, Three.js를 이용하여 메인 캐릭터 3D 움직임 추가.
       </P>
       <List ml={4} my={4}>
         <ListItem>

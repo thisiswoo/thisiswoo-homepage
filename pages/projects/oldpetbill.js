@@ -17,7 +17,8 @@ const Project = () => (
         petBill <Badge>2021</Badge>
       </Title>
       <P>
-        공공 데이터를 활용한 전국 동물병원 진료비 안내 사이트 구축. 지도를 통한 지역 동물병원의 위치 및 전화번호 안내와 함께 강아지, 고양이의 대표 질병 각 40여개의 질병정보 및 가격 비교 사이트 구축.
+        공공 데이터를 활용한 전국 동물병원 진료비 안내 사이트 구축.
+        지도를 통한 지역 동물병원의 위치 및 전화번호 안내와 함께 강아지, 고양이의 대표 질병 각 40여개의 질병정보 및 가격 비교 사이트 구축.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -31,7 +32,10 @@ const Project = () => (
             전국((서울시 제외) 공공 데이터포털) 
             <ExternalLinkIcon mx="2px" />
           </Link>
-            , PETPRICE&#40;App&#41;
+          <Link href="https://petprice.kr/">
+            , 펫프라이스&#40;App&#41;
+            <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
@@ -39,15 +43,15 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java, Spring, OracleSQL</span>
+          <span>Java, Spring, JSP, OracleSQL</span>
         </ListItem>
         <ListItem>
           <Meta>Agency</Meta>
-          <span>Global IT Human Resources Development Institute</span>
+          <span>글로벌 아이티 인재개발원</span>
         </ListItem>
         <ListItem>
           <Meta>Award</Meta>
-          <span>Exemplary Award</span>
+          <span>모범상 수상</span>
         </ListItem>
       </List>
 

@@ -16,7 +16,7 @@ const Work = () => (
         Trans <Badge>2022</Badge>
       </Title>
       <P>
-        가족관계 증명서, 혼인관계 증명서, 인감 증명서, 주민등록증, 운전면허증, 여권등의 서류를 4개국어 영어, 중국어, 일본어, 베트남어로 자동 번역 및 다운로드 시스템. 
+        각종 인증문서 스마트 번역(4개 국어 - 영어, 중국어, 일본어, 베트남어) 및 Word 파일 다운로드 시스템 웹 개발.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -25,17 +25,17 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Java, Spring Boot, MySQL</span>
+          <span>Java, Spring Boot, MySQL, Apache POI</span>
         </ListItem>
         <ListItem>
           <Meta>Agency</Meta>
           <Link href="https://kr.xiness.com/" target='_blank'>
-            Xiness co.,ltd
+            자이네스
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Tasks</Meta>
-          <span>주민등록증 번역 및 doc확장자 파일 다운로드 구현</span>
+          <span>Apache POI 라이브러리를 이용한 주민등록증 번역 및 Word 파일 다운로드 구현</span>
         </ListItem>
 
       </List>

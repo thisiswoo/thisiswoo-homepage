@@ -16,7 +16,7 @@ import {
         <Title>
           Thumbnail Maker <Badge>2022</Badge>
         </Title>
-        <P>html, css, javascript의 프로젝트를 Vue.js를 이용하여 Refactoring 하기.</P>
+        <P>VanillaJS의 프로젝트를 Vue3를 이용하여 마이그레이션.</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Author</Meta>
@@ -38,12 +38,12 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Vue.js</span>
+            <span>Vue.js 3</span>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
             <Link href="https://github.com/thisiswoo/vue-tutorial" target='_blank'>
-                Refactoring Source <ExternalLinkIcon mx="2px" />
+                마이그레이션 Source Code <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
