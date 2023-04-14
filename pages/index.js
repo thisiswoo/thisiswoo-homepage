@@ -92,15 +92,16 @@ const Page = () => {
             Company
           </Heading>
           <BioSection>
-            <BioYear>2021-2021</BioYear>
-            글로벌IT 인재개발원 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
-          </BioSection>
-          <BioSection>
             <BioYear>2021 to present</BioYear>
             {' '}
             <NextLink href="https://kr.xiness.com/" target="_blank" passHref>
               <Link>자이네스</Link>
             </NextLink>
+            &nbsp;- 웹 개발/배포/운영 담당
+          </BioSection>
+          <BioSection>
+            <BioYear>2021-2021</BioYear>
+            글로벌IT 인재개발원 빅데이터를 활용한 자바, 파이썬 웹 개발 과정 수료.
           </BioSection>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
