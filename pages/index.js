@@ -139,7 +139,7 @@ const Page = () => {
             <Wrap>
               <WrapItem>
                 <Text fontSize='md' as='b'>
-                  MySQL, Jenkins, Git, Github, GitLap
+                  MySQL, Jenkins, Git, GitHub, GitLab
                 </Text>
               </WrapItem>
             </Wrap>
