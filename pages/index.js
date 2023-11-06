@@ -32,7 +32,7 @@ const Page = () => {
           p={3} 
           mb={6} 
           align="center">
-          Effort never betrays. The important thing is an unbreakable heart.
+          I will record with the mind of a history official.
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -40,7 +40,7 @@ const Page = () => {
               이건우
             </Heading>
             <p>
-              &ensp;&ensp;<Text fontSize='md' as='b'>&quot;자신하지만 자만하지 않으며, 항상 겸손한 자세로 배우고, 공유하며 모두 함께 성장할 수 있도록 하겠습니다.&quot;</Text>
+              &ensp;&ensp;<Text fontSize='md' as='b'>Java & Spring 기반의 2년 차 백엔드 개발자 이건우입니다.</Text>
             </p>
           </Box> 
           <Box
@@ -75,9 +75,14 @@ const Page = () => {
               <TagLabel>Faithful</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;항상 초심을 잃지 않고 <Link href="https://thisiswoo.github.io/tag-routine/" target="_blank"><b>꾸준함</b></Link>을 유지하기 위해 사내 <b>스터디 모임</b>을 <b>추진</b>하여 진행하고 있습니다.
-            이를 통해 습득한 지식을 <Link href="https://github.com/thisiswoo" target="_blank"><b>Github</b></Link>와 기술 블로그에 <Link href="https://thisiswoo.github.io/" target="_blank"><b>기록 • 공유</b></Link>하는 저만의 <b>루틴</b>을 실천중입니다.
-            또한, 실무에서 이슈 발생시 테스트를 통해 원인을 <b>분석</b>하고 <Link href="https://thisiswoo.github.io/tag-problem-solving/" target="_blank"><b>해결 • 개선</b></Link>하는 재미에 푹 빠져있습니다.<br/><br/>
+            &nbsp;항상 초심을 잃지 않고 <b>꾸준함</b>을 유지하기 위해 사내 <b>스터디 모임</b> 뿐만 아니라 <b>개인 프로젝트</b> 및 <b>토이 프로젝트</b>를 <b>추진</b>하여 진행하고 있습니다.<br/>
+            이를 통해 습득한 지식을 <Link href="https://github.com/thisiswoo" target="_blank"><b>Github</b></Link>와 기술 블로그에 <Link href="https://thisiswoo.github.io/" target="_blank"><b>기록 • 공유</b></Link>하는 저만의 <b>루틴</b>을 실천 중입니다.<br/>
+            또한, 실무에서 이슈 발생시 테스트를 통해 <Link href="https://thisiswoo.github.io/tag-problem-solving/" target="_blank"><b>원인을 분석하고 해결 • 개선</b></Link>을 하고 있습니다.<br/><br/>
+            <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
+              <TagLabel>Resolve</TagLabel>
+              <TagRightIcon as={CheckIcon} />
+            </Tag>
+            &nbsp;<b>꾸준함</b>의 힘을 알기에 <b>꾸준함</b>과 <b>기록</b>을 통해 <b>정진</b>하겠습니다.
           </Box>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
@@ -154,7 +159,7 @@ const Page = () => {
             <Wrap>
               <WrapItem>
                 <Text fontSize='md' as='b'>
-                  HTML, CSS, JavaScript, Vue, jQuery
+                  HTML, CSS, JavaScript, Vue, jQuery, JSP
                 </Text>
               </WrapItem>
             </Wrap>
