@@ -86,7 +86,8 @@ const Page = () => {
           </Box>
           <Box align="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              {/*<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">*/}
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 Projects
               </Button>
             </NextLink>
@@ -110,7 +111,8 @@ const Page = () => {
           </BioSection>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref scroll={false}>
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              {/*<Button rightIcon={<ChevronRightIcon />} colorScheme="teal">*/}
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 Works
               </Button>
             </NextLink>
@@ -200,7 +202,7 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            삼겹살, 잠, 운동, 책, EPL&#40;COYS&#41; 경기 보기, e-Sports&#40;LOL&#41; 경기 보기
+            삼겹살 먹기, 잠자기, 운동(웨이트 트레이닝, 수영)하기, 책보기, EPL&#40;COYS&#41; 경기 보기, e-Sports&#40;LOL&#41; 경기 보기
           </Paragraph>
         </Section>
       </Container>
