@@ -40,7 +40,7 @@ const Page = () => {
               이건우
             </Heading>
             <p>
-              &ensp;&ensp;<Text fontSize='md' as='b'>Java & Spring 기반의 2년 차 백엔드 개발자 이건우입니다.</Text>
+              &ensp;&ensp;<Text fontSize='md' as='b'>Java & Spring 기반의 3년 차 백엔드 개발자 이건우입니다.</Text>
             </p>
           </Box> 
           <Box
@@ -69,7 +69,7 @@ const Page = () => {
               <TagLabel>Career</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;Java & Spring 기반의 2년 차 백엔드 개발자 이건우입니다. 주로 웹 개발/배포/운영을 하고 있습니다.
+            &nbsp;Java & Spring 기반의 3년 차 백엔드 개발자 이건우입니다. 주로 웹 개발/배포/운영을 하고 있습니다.
             <br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Faithful</TagLabel>
@@ -131,7 +131,7 @@ const Page = () => {
             <Wrap>
               <WrapItem>
                 <Text fontSize='md' as='b'>
-                  Java, Spring Boot, Spring MVC, JPA, QueryDSL
+                  Java, Spring Boot, Spring MVC, queryDSL, Gradle, Maven
                 </Text>
               </WrapItem>
             </Wrap>
@@ -161,7 +161,7 @@ const Page = () => {
             <Wrap>
               <WrapItem>
                 <Text fontSize='md' as='b'>
-                  HTML, CSS, JavaScript, Vue, jQuery, JSP
+                  HTML, CSS, JavaScript, Vue.js(3.x), jQuery, JSP
                 </Text>
               </WrapItem>
             </Wrap>
