@@ -75,9 +75,7 @@ const Page = () => {
               <TagLabel>Faithful</TagLabel>
               <TagRightIcon as={CheckIcon} />
             </Tag>
-            &nbsp;항상 초심을 잃지 않고 <b>꾸준함</b>을 유지하기 위해 사내 <b>스터디 모임</b> 뿐만 아니라 <b>개인 프로젝트</b> 및 <b>토이 프로젝트</b>를 <b>추진</b>하여 진행하고 있습니다.<br/>
-            이를 통해 습득한 지식을 <Link href="https://github.com/thisiswoo" target="_blank"><b>Github</b></Link>와 기술 블로그에 <Link href="https://thisiswoo.github.io/" target="_blank"><b>기록 • 공유</b></Link>하는 저만의 <b>루틴</b>을 실천 중입니다.<br/>
-            또한, 실무에서 이슈 발생 시 테스트를 통해 <Link href="https://thisiswoo.github.io/tag-problem-solving/" target="_blank"><b>원인을 분석하고 해결 • 개선</b></Link>을 하고 있습니다.<br/><br/>
+            &nbsp;<b>꾸준함</b>을 유지하기 위해 습득한 지식을 <Link href="https://github.com/thisiswoo" target="_blank"><b>Github</b></Link>와 기술 블로그에 <Link href="https://thisiswoo.github.io/" target="_blank"><b>기록 • 공유</b></Link>하는 저만의 <b>루틴</b>을 실천 중입니다. 또한, 실무에서 이슈 발생 시 테스트를 통해 <Link href="https://thisiswoo.github.io/tag-problem-solving/" target="_blank"><b>원인을 분석하고 해결 • 개선</b></Link>을 하고 있습니다.<br/><br/>
             <Tag size='md' key='md' variant='subtle' colorScheme='blue'>
               <TagLabel>Resolve</TagLabel>
               <TagRightIcon as={CheckIcon} />
@@ -152,7 +150,7 @@ const Page = () => {
             </Wrap>
           </HStack>
           <br/>
-          <HStack spacing='20px' justify='left' >
+          <HStack spacing='20px' justify='left'>
             <Center>
               <Tag w={110} size='md' key='md' variant='subtle' colorScheme='red'>
                 <TagLabel align='end'>Frontend</TagLabel>
@@ -196,13 +194,28 @@ const Page = () => {
               </WrapItem>
             </Wrap>
           </HStack>
+          <br/>
+          <HStack spacing='20px' justify='left'>
+            <Center>
+              <Tag w={110} size='md' key='md' variant='subtle' colorScheme='yellow'>
+                <TagLabel>OS</TagLabel>
+              </Tag>
+            </Center>
+            <Wrap>
+              <WrapItem>
+                <Text fontSize='md' as='b'>
+                  Mac OS, Linux, Windows
+                </Text>
+              </WrapItem>
+            </Wrap>
+          </HStack>
         </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
           <Paragraph>
-            삼겹살 먹기, 잠자기, 운동(웨이트 트레이닝, 수영)하기, 책보기, EPL&#40;COYS&#41; 경기 보기, e-Sports&#40;LOL&#41; 경기 보기
+            삼겹살 먹기, 잠자기, 운동(웨이트 트레이닝, 수영)하기, 책보기, EPL&#40;COYS&#41;, LaLiga&#40;RMA&#41;, Bundesliga&#40;BVB&#41;, Serie A&#40;MIL&#41; 경기 보기, e-Sports&#40;LOL&#41; 경기 보기
           </Paragraph>
         </Section>
       </Container>

@@ -15,7 +15,7 @@ const Work = () => (
     ">
         <Container>
             <Title>
-                Ilias AI <Badge>2023</Badge>
+                Ilias AI <Badge>2023 ~</Badge>
             </Title>
             <P>
                 디지털 후각 데이터를 이용한 출입관리 시스템 웹 개발
@@ -27,26 +27,25 @@ const Work = () => (
                         Ilias AI <ExternalLinkIcon mx="2px" />
                     </Link>
                 </ListItem>
-                <ListItem>
-                    <Meta>Video</Meta>
-                    <Link href="https://www.youtube.com/watch?v=NDNu2zGa6hU" target='_blank'>
-                        소개영상1<ExternalLinkIcon mx="2px" />
-                    </Link>,&nbsp;
-                    <Link href="https://www.youtube.com/watch?v=yYo1dGl2X7E" target='_blank'>
-                        소개영상2(한글)<ExternalLinkIcon mx="2px" />
-                    </Link>,&nbsp;
-                    <Link href="https://www.youtube.com/watch?v=AHPSdyxbkSY" target='_blank'>
-                        소개영상3(영문) <ExternalLinkIcon mx="2px" />
-                    </Link>
-
-                </ListItem>
-                <ListItem>
-                    <Meta>Platform</Meta>
-                    <span>Windows, macOS, Linux, iOS, Android</span>
-                </ListItem>
+                {/*<ListItem>*/}
+                {/*    <Meta>Video</Meta>*/}
+                {/*    <Link href="https://www.youtube.com/watch?v=NDNu2zGa6hU" target='_blank'>*/}
+                {/*        소개영상1<ExternalLinkIcon mx="2px" />*/}
+                {/*    </Link>,&nbsp;*/}
+                {/*    <Link href="https://www.youtube.com/watch?v=yYo1dGl2X7E" target='_blank'>*/}
+                {/*        소개영상2(한글)<ExternalLinkIcon mx="2px" />*/}
+                {/*    </Link>,&nbsp;*/}
+                {/*    <Link href="https://www.youtube.com/watch?v=AHPSdyxbkSY" target='_blank'>*/}
+                {/*        소개영상3(영문) <ExternalLinkIcon mx="2px" />*/}
+                {/*    </Link>*/}
+                {/*</ListItem>*/}
+                {/*<ListItem>*/}
+                {/*    <Meta>Platform</Meta>*/}
+                {/*    <span>Windows, macOS, Linux, iOS, Android</span>*/}
+                {/*</ListItem>*/}
                 <ListItem>
                     <Meta>Server</Meta>
-                    <span>Linux, Windows</span>
+                    <span>Linux</span>
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
@@ -55,7 +54,11 @@ const Work = () => (
                 <ListItem>
                     <Meta>Agency</Meta>
                     <Link href="https://kr.xiness.com/" target='_blank'>
-                        자이네스
+                        Xiness
+                    </Link>
+                    ,&nbsp;
+                    <Link href="https://www.iliasai.com/" target='_blank'>
+                        iliasAI
                     </Link>
                 </ListItem>
                 <ListItem>
@@ -63,46 +66,52 @@ const Work = () => (
                     <Wrap>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - Spring Boot와 QueryDSL을 활용한 권한 별 사용자/어드민 페이지 개발
+                                - 프로젝트 세팅(vue.js(3.x), Spring boot 2.7.x(maven))
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - Mini Computer(Window/Linux)와 안드로이드 SDK를 이용하여 출입관리 시스템 구축
+                                - 기존 JSP의 화면을 <Link href="https://thisiswoo.github.io/development/reason-why-i-chose-company-project-vue3.html" target="_blank"><b>Vue3로 마이그레이션</b></Link>
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - Google 원격을 통한 Mini Computer와의 원격 제어 구현
+                                - Spring Security를 활용한 권한별 접근 리소스 개발
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - Spring Scheduler를 활용한 주기적인 데이터 관리
+                                - Firebase를 활용한 위험 Level의 출입자 알림 서비스 개발
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - Apache POI, i18n 라이브러리를 이용한 개인정보 조회 이력 엑셀 다운로드 개발 및 다국어 모드 적용
+                                - Spring Boot와 Querydsl을 활용하여 기존 DB 조회를 <Link href="https://thisiswoo.github.io/development/excessive-data-exposure.html" target="_blank"><b>65% 성능 개선</b></Link>
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - [접근 권한 : 시스템] - (서비스 관리)계정관리, 고객사별 게이트 관리 / SMS알림톡 이력 관리 / (설정) 카메라 설정, 게이트 설정 / 공지사항 개발
+                                - 재사용 가능한 공통 팝업 함수를 개발하여 기존 대비 코드량 <Link href="https://thisiswoo.github.io/development/js-notification-refactoring.html" target="_blank"><b>70% 감소</b></Link>
                             </Text>
                         </WrapItem>
                         <WrapItem>
                             <Text fontSize='md'>
-                                - [접근 권한 : 운영자] - (서비스 관리) 기본 정보 관리, 담당자 관리, 게이트 관리, 개인정보 조회 관리 / (사용자 관리) 이벤트 처리 상태 관리 / SMS알림톡 이력 관리 / 출입이력 관리 / (공지사항) 시스템 공지사항, 사내 공지사항 개발
+                                - QueryDSL의 group_concat() 함수를 활용하여 <Link href="https://thisiswoo.github.io/development/using-jpa-querydsl-groupconcat-func.html" target="_blank"><b>동일 ID의 행 값들을 하나로 통합하여 데이터 행들을 효율적으로 그룹화</b></Link>하고 정리
+                            </Text>
+                        </WrapItem>
+                        <WrapItem>
+                            <Text fontSize='md'>
+                                - docker / Jenkins를 활용한 회사 내부 서버에 프로젝트 배포
                             </Text>
                         </WrapItem>
                     </Wrap>
                 </ListItem>
             </List>
 
-            <WorkImage src="/images/works/kgate/ov_kr_kgate1.jpg" alt="Kgate" />
-            <WorkImage src="/images/works/kgate/ov_kr_kgate2.jpg" alt="Kgate" />
-            <WorkImage src="/images/works/kgate/ov_kr_kgate3.jpg" alt="Kgate" />
+            <WorkImage src="/images/works/iliasai/iliasai_01.jpg" alt="iliasai" />
+            <WorkImage src="/images/works/iliasai/iliasai_02.jpg" alt="iliasai" />
+            <WorkImage src="/images/works/iliasai/iliasai_03.jpg" alt="iliasai" />
+            <WorkImage src="/images/works/iliasai/iliasai_04.jpg" alt="iliasai" />
         </Container>
     </Layout>
 )
